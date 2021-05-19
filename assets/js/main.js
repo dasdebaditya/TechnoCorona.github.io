@@ -115,7 +115,7 @@
     time: 1000
   });
 
-  // Skills section
+  
   $('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -124,7 +124,7 @@
     offset: '80%'
   });
 
-  // Porfolio isotope and filter
+  
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
@@ -165,7 +165,7 @@
     }
   });
 
-  // Portfolio details carousel
+ 
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -173,7 +173,7 @@
     items: 1
   });
 
-  // Init AOS
+ 
   function aos_init() {
     AOS.init({
       duration: 1000,
